@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WTFunk_Menu2.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="thine mom0000" x="0" y="0" width="1733" height="1077" frameX="0" frameY="-37" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0001" x="0" y="0" width="1733" height="1077" frameX="0" frameY="-37" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0002" x="1733" y="0" width="1732" height="1077" frameX="0" frameY="-37" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0003" x="1733" y="0" width="1732" height="1077" frameX="0" frameY="-37" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0004" x="3465" y="0" width="1724" height="1094" frameX="0" frameY="-29" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0005" x="3465" y="0" width="1724" height="1094" frameX="0" frameY="-29" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0006" x="5189" y="0" width="1707" height="1123" frameX="0" frameY="-18" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0007" x="5189" y="0" width="1707" height="1123" frameX="0" frameY="-18" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0008" x="5189" y="0" width="1707" height="1123" frameX="0" frameY="-18" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0009" x="5189" y="0" width="1707" height="1123" frameX="0" frameY="-18" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0010" x="0" y="1123" width="1695" height="1140" frameX="0" frameY="-10" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0011" x="0" y="1123" width="1695" height="1140" frameX="0" frameY="-10" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0012" x="1695" y="1123" width="1690" height="1157" frameX="0" frameY="0" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0013" x="1695" y="1123" width="1690" height="1157" frameX="0" frameY="0" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0014" x="3385" y="1123" width="1695" height="1141" frameX="0" frameY="-7" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0015" x="3385" y="1123" width="1695" height="1141" frameX="0" frameY="-7" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0016" x="5080" y="1123" width="1718" height="1108" frameX="0" frameY="-21" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0017" x="5080" y="1123" width="1718" height="1108" frameX="0" frameY="-21" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0018" x="0" y="2280" width="1725" height="1089" frameX="0" frameY="-32" frameWidth="1733" frameHeight="1157"/>
+	<SubTexture name="thine mom0019" x="0" y="2280" width="1725" height="1089" frameX="0" frameY="-32" frameWidth="1733" frameHeight="1157"/>
+</TextureAtlas>

@@ -219,7 +219,7 @@ class MainMenuState extends MusicBeatState
 				danceLeft = !danceLeft;
 	
 				if (danceLeft)
-					gfDance.animation.play('danceLeft');
+					gfDance.animation.play('thine mom');
 			}
 
 

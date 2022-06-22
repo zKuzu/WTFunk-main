@@ -89,6 +89,19 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
+					//Gf Main Menu
+
+			gfDance = new FlxSprite(FlxG.width * -0.2, FlxG.height * -0.25);
+			gfDance.frames = Paths.getSparrowAtlas('WTFunk_Menu2');
+			gfDance.animation.addByIndices('thine mom', 'thine mom', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,], "", 24, true);
+			add(gfDance);
+
+			if(gfDance != null) {
+				danceLeft = !danceLeft;
+	
+				if (danceLeft)
+					gfDance.animation.play('thine mom');
+
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -115,7 +128,6 @@ class MainMenuState extends MusicBeatState
 		}*/
 
 		for (i in 0...optionShit.length)
-
 
 		//ld be done with the UI now for some extra things 
 
@@ -206,20 +218,6 @@ class MainMenuState extends MusicBeatState
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
-
-			
-			//Gf Main Menu
-
-			gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
-			gfDance.frames = Paths.getSparrowAtlas('WTFunk_Menu2');
-			gfDance.animation.addByIndices('thine mom', 'thine mom', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,], "", 24, true);
-			add(gfDance);
-
-			if(gfDance != null) {
-				danceLeft = !danceLeft;
-	
-				if (danceLeft)
-					gfDance.animation.play('thine mom');
 			}
 
 
@@ -283,6 +281,7 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
+
 			if (controls.UI_UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));

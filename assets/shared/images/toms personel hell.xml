@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="toms personel hell.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tomdark0000" x="0" y="0" width="569" height="621" frameX="0" frameY="-10" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0001" x="569" y="0" width="561" height="624" frameX="-7" frameY="-7" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0002" x="1130" y="0" width="553" height="626" frameX="-14" frameY="-5" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0003" x="1683" y="0" width="547" height="631" frameX="-17" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0004" x="2230" y="0" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0005" x="2770" y="0" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0006" x="3310" y="0" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0007" x="0" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0008" x="540" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0009" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0010" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0011" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0012" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0013" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+	<SubTexture name="tomdark0014" x="1080" y="631" width="540" height="631" frameX="-21" frameY="0" frameWidth="569" frameHeight="631"/>
+</TextureAtlas>

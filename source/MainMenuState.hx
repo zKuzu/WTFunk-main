@@ -37,13 +37,13 @@ class MainMenuState extends MusicBeatState
 //the UI vars
 
 	var optionShit:Array<String> = [
+		'credits',
 		'story_mode',
-		'freeplay',
+		'options',
 		//#if MODS_ALLOWED 'mods', #end
 		//#if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'credits',
 		//#if !switch 'donate', #end
-		'options'
+		'freeplay'
 	];
 
 	var magenta:FlxSprite;
@@ -131,9 +131,9 @@ class MainMenuState extends MusicBeatState
 
 		//ld be done with the UI now for some extra things 
 
-		// Story Mode
+		// Credits
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 100);
+			var menuItem:FlxSprite = new FlxSprite(500, 100);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[0]);
@@ -154,9 +154,9 @@ class MainMenuState extends MusicBeatState
 
 
 
-			// FreePlay Mode
+			// Story Mode
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 250);
+			var menuItem:FlxSprite = new FlxSprite(200, 350);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[1]);
@@ -177,9 +177,9 @@ class MainMenuState extends MusicBeatState
 
 
 
-			// Credits
+			// Options
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 400);
+			var menuItem:FlxSprite = new FlxSprite(500, 550);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[2]);
@@ -199,9 +199,9 @@ class MainMenuState extends MusicBeatState
 
 
 
-			// Options
+			// FreePlay Mode
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 550);
+			var menuItem:FlxSprite = new FlxSprite(700, 350);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[3]);
@@ -285,13 +285,25 @@ class MainMenuState extends MusicBeatState
 			if (controls.UI_UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(-1);
+				changeItem(2);
 			}
 
 			if (controls.UI_DOWN_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
+				changeItem(2);
+			}
+
+			if (controls.UI_LEFT_P)
+			{
+				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeItem(1);
+			}
+
+			if (controls.UI_RIGHT_P)
+			{
+				FlxG.sound.play(Paths.sound('scrollMenu'));
+				changeItem(-1);
 			}
 
 			if (controls.BACK)
